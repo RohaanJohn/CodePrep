@@ -23,7 +23,7 @@ int insertion(int item, int pos) {
 }
 
 void deletion(int item) {
-  int i, count = 0;
+  int count = 0;
 
   for (i = 0; i < n; i++) {
     if (arr[i + count] == item) {
