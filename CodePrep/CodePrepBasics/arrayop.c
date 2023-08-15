@@ -25,7 +25,7 @@ int insertion(int item, int pos) {
 void deletion(int item) {
   int count = 0;
 
-  for (i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++) {
     if (arr[i + count] == item) {
       count++;
       i--;
